@@ -1,0 +1,89 @@
+{
+  "categories": {
+    "enneagram_at_work": {
+      "label": "Enneagram at Work Competitors",
+      "advertisers": [
+        {
+          "name": "Enneagram MBA",
+          "website": "enneagrammba.com",
+          "notes": "Podcast + team workshops + budget DIY workshop kit. Direct competitor on workshop/kit model."
+        }
+      ]
+    },
+    "executive_coaching": {
+      "label": "Executive Coaches",
+      "advertisers": [
+        {
+          "name": "RLim Leadership Coaching (Richard Lim)",
+          "website": "",
+          "notes": "1:1 executive/leadership coach, 20+ yrs, targets Christian executives and senior leaders. Active video ad running lead-magnet funnel (free guide)."
+        },
+        {
+          "name": "Vanguard XXI",
+          "website": "",
+          "notes": "ICF-accredited coach certification academy + 1:1 executive coaching for senior leaders/teams. Closest structural match to our own certify-coaches model, not just a coaching service."
+        },
+        {
+          "name": "Center for Executive Coaching",
+          "website": "centerforexecutivecoaching.com",
+          "notes": "ICF-aligned executive coaching certification program ('CEC Core Certification'). Certification-business competitor, same funnel shape as our coach-cert model."
+        },
+        {
+          "name": "EntreLeadership",
+          "website": "ramseysolutions.com/business/what-is-leadership-coaching",
+          "notes": "Dave Ramsey's Ramsey Solutions offers 1:1 executive coaching for business owners. Well-funded, well-known brand \u2014 useful benchmark for production quality and offer structure."
+        },
+        {
+          "name": "Marlo Lyons Coaching",
+          "website": "",
+          "notes": "1:1 executive/leadership coach, active organic-style video ads on C-suite transitions and executive credibility. Real practitioner, running multiple ad variations."
+        },
+        {
+          "name": "Ed Rush / God Talks Coaching Certification",
+          "website": "godtalksteam.com",
+          "notes": "Coach certification funnel targeting people who want to become executive coaches (faith-integration angle). Certification-business competitor, not a direct coaching-client competitor."
+        },
+        {
+          "name": "Brendon Burchard - GrowthDay",
+          "website": "growthday.com",
+          "notes": "Large coach-training funnel ('3-Day Coaching Training') aimed at people building a coaching business. Certification/training-business competitor at much bigger scale \u2014 useful for funnel/offer benchmarking."
+        }
+      ]
+    },
+    "fractional_coo": {
+      "label": "Fractional COOs",
+      "advertisers": [
+        {
+          "name": "The COO Solution",
+          "website": "thecoosolution.com",
+          "notes": "Direct fractional COO placement for founder-led companies $1M-$15M revenue. Running multiple active ad variations \u2014 clearly meaningful ad spend."
+        },
+        {
+          "name": "On Call COO (Melissa Franks)",
+          "website": "melissafranks.com",
+          "notes": "Direct-to-market fractional COO service, consistent 'The RIGHT Fractional COO can help' messaging across several active ads."
+        },
+        {
+          "name": "Run Like Clockwork",
+          "website": "runlikeclockwork.com",
+          "notes": "Certifies and directories 'Certified Fractional COOs' trained in the Clockwork methodology. Certification + marketplace model, not a single practitioner."
+        },
+        {
+          "name": "Double U Advisors (Jamie L. Smith)",
+          "website": "doubleuadvisors.com",
+          "notes": "$47 'Executive to Fractional Leader Blueprint' \u2014 info-product tripwire teaching corporate execs to launch a fractional COO/CFO/CMO practice. Closest business-model match to our own StackOS tripwire approach; several active ad variations."
+        },
+        {
+          "name": "Sound Cove Leadership Institute",
+          "website": "soundcoveleadership.com",
+          "notes": "Positions/trains executives 45-60 to build a fractional leadership practice ('Fix your Fractional Positioning'). Training/positioning competitor rather than a placement service."
+        }
+      ]
+    }
+  },
+  "notes": [
+    "Browser-based ingestion (current approach): only the advertiser's name is required. Claude searches facebook.com/ads/library by name/page directly \u2014 no Meta Page ID, no Developer account, no API token needed.",
+    "Add advertisers under the right category \u2014 the frontend groups and tags by category, so an advertiser in the wrong bucket will get mis-sorted, not just mislabeled.",
+    "A 'website' field helps disambiguate when a name search returns multiple similarly-named advertisers."
+  ]
+}
