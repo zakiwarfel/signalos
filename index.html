@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SignalOS</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  :root {
+    --bg: #f7f7f5;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --line: #e6e4df;
+    --accent: #f5a623;
+    --accent-dark: #d98c0f;
+    --long-runner: #2f9e44;
+    --iterated: #4263eb;
+    --inactive: #adb5bd;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    padding: 24px 16px 64px;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  header svg { width: 32px; height: 32px; flex-shrink: 0; }
+  h1 { font-size: 22px; margin: 0; }
+  .sub { color: var(--muted); font-size: 14px; margin: 4px 0 28px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+  .tab {
+    padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line);
+    background: var(--card); cursor: pointer; font-size: 14px; color: var(--muted);
+  }
+  .tab.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+  section { display: none; }
+  section.active { display: block; }
+
+  #recs { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px 28px; }
+  #recs h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 24px 0 8px; }
+  #recs h2:first-child { margin-top: 0; }
+  #recs :is(p, li) { line-height: 1.55; font-size: 15px; }
+
+  .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter {
+    padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line);
+    background: var(--card); cursor: pointer; font-size: 13px; color: var(--muted);
+  }
+  .filter.active { background: var(--accent); color: #1a1a1a; border-color: var(--accent-dark); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 16px; display: flex; flex-direction: column; gap: 8px;
+  }
+  .card.inactive { opacity: .55; }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .advertiser { font-weight: 600; font-size: 15px; }
+  .category { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
+  .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 999px; font-weight: 600; }
+  .badge.long-runner { background: #ebfbee; color: var(--long-runner); }
+  .badge.iterated { background: #edf2ff; color: var(--iterated); }
+  .badge.type { background: #fff4e6; color: var(--accent-dark); }
+  .badge.inactive-tag { background: #f1f3f5; color: var(--inactive); }
+  .hook { font-size: 13.5px; line-height: 1.5; }
+  .meta { font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; margin-top: auto; }
+  .card a { font-size: 12.5px; color: var(--accent-dark); text-decoration: none; }
+  .card a:hover { text-decoration: underline; }
+  .empty { color: var(--muted); font-size: 14px; padding: 40px 0; text-align: center; }
+  footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#ffd27a"/>
+          <stop offset="1" stop-color="#f5a623"/>
+        </linearGradient>
+      </defs>
+      <path d="M12 52 L38 78 L88 20" stroke="url(#g)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </svg>
+    <div>
+      <h1>SignalOS</h1>
+      <div class="sub" id="refreshed">Loading…</div>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="recs">Recommendations</div>
+    <div class="tab" data-tab="swipe">Swipe File</div>
+  </div>
+
+  <section id="recs-section" class="active">
+    <div id="recs">Loading recommendations…</div>
+  </section>
+
+  <section id="swipe-section">
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <footer>SignalOS — private competitor signal tracker. Data refreshed weekly via CoWork.</footer>
+</div>
+
+<script>
+const REPO = "zakiwarfel/signalos";
+const BRANCH = "main";
+const RAW = (path) => `https://raw.githubusercontent.com/${REPO}/${BRANCH}/${path}`;
+
+let allAds = [];
+let activeFilter = "all";
+
+async function loadAds() {
+  try {
+    const res = await fetch(RAW("ads.json") + `?t=${Date.now()}`);
+    const data = await res.json();
+    allAds = data.ads || [];
+    document.getElementById("refreshed").textContent = data.last_refreshed
+      ? `Last refreshed ${new Date(data.last_refreshed).toLocaleString()}`
+      : "No refresh yet — first scheduled run is pending";
+    renderFilters();
+    renderGrid();
+  } catch (e) {
+    document.getElementById("grid").innerHTML = '<div class="empty">Couldn\'t load ads.json yet. Check back after the first scheduled run.</div>';
+  }
+}
+
+async function loadRecs() {
+  try {
+    const res = await fetch(RAW("recommendations.md") + `?t=${Date.now()}`);
+    const text = await res.text();
+    document.getElementById("recs").innerHTML = marked.parse(text);
+  } catch (e) {
+    document.getElementById("recs").innerHTML = '<div class="empty">Couldn\'t load recommendations.md yet.</div>';
+  }
+}
+
+function renderFilters() {
+  const categories = ["all", ...new Set(allAds.map(a => a.category))];
+  const el = document.getElementById("filters");
+  el.innerHTML = categories.map(c =>
+    `<div class="filter ${c === activeFilter ? "active" : ""}" data-cat="${c}">${c === "all" ? "All" : c.replace(/_/g, " ")}</div>`
+  ).join("");
+  el.querySelectorAll(".filter").forEach(f => {
+    f.addEventListener("click", () => {
+      activeFilter = f.dataset.cat;
+      renderFilters();
+      renderGrid();
+    });
+  });
+}
+
+function renderGrid() {
+  const grid = document.getElementById("grid");
+  const ads = activeFilter === "all" ? allAds : allAds.filter(a => a.category === activeFilter);
+  if (!ads.length) {
+    grid.innerHTML = '<div class="empty">No ads tracked yet in this category.</div>';
+    return;
+  }
+  const sorted = [...ads].sort((a, b) => (b.days_running || 0) - (a.days_running || 0));
+  grid.innerHTML = sorted.map(ad => {
+    const signal = ad.signal || {};
+    const inactive = ad.status !== "active";
+    return `
+      <div class="card ${inactive ? "inactive" : ""}">
+        <div class="card-top">
+          <div>
+            <div class="advertiser">${escapeHtml(ad.advertiser || "Unknown")}</div>
+            <div class="category">${(ad.category || "").replace(/_/g, " ")}</div>
+          </div>
+        </div>
+        <div class="badges">
+          ${ad.ad_type_tag ? `<span class="badge type">${ad.ad_type_tag.replace(/_/g, " ")}</span>` : ""}
+          ${signal.long_runner ? `<span class="badge long-runner">Long runner</span>` : ""}
+          ${signal.iterated ? `<span class="badge iterated">Iterated</span>` : ""}
+          ${inactive ? `<span class="badge inactive-tag">Inactive</span>` : ""}
+        </div>
+        ${ad.hook ? `<div class="hook">${escapeHtml(ad.hook)}</div>` : ""}
+        <div class="meta">
+          <span>${ad.days_running != null ? ad.days_running + "d running" : ""}</span>
+          ${ad.creative_url ? `<a href="${ad.creative_url}" target="_blank" rel="noopener">View ad ↗</a>` : ""}
+        </div>
+      </div>
+    `;
+  }).join("");
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+    document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+    tab.classList.add("active");
+    document.getElementById(tab.dataset.tab + "-section").classList.add("active");
+  });
+});
+
+loadAds();
+loadRecs();
+</script>
+</body>
+</html>
