@@ -1,4 +1,1689 @@
 {
-  "last_refreshed": null,
-  "ads": []
+  "last_refreshed": "2026-09-14T18:00:00Z",
+  "ads": [
+    {
+      "ad_id": "meta_2143393363058647",
+      "advertiser": "RLim Leadership Coaching (Richard Lim)",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2143393363058647",
+      "transcript": "Christian Executives & Leaders: Many leaders think the answer to overwhelm is better time management... The real question is not 'How do I get more done?' It is 'What truly requires my leadership right now?' Hi, I'm Richard Lim, an executive coach... I put 5 reflection questions into a free guide...",
+      "on_screen_text": [
+        "You Don't Need More Time. You Need Clarity."
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Reframes the felt problem (time management) into the real problem (discernment of what needs leadership) -- a paradox/reframe hook aimed at overwhelmed Christian executives",
+      "offer": "Free guide: 5 reflection questions for Christian executives/leaders",
+      "cta": "Download",
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-09-14",
+      "days_running": 33,
+      "status": "active",
+      "hook_pattern": "paradox_reframe",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Part of a 3-ad concurrent set from this advertiser, all promoting the same free-guide lead magnet with slightly different hooks."
+    },
+    {
+      "ad_id": "meta_28430378776597492",
+      "advertiser": "RLim Leadership Coaching (Richard Lim)",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=28430378776597492",
+      "transcript": "Christian Executives & Leaders: Many capable leaders carry more than others realise... Some things need to be clarified. Some need to be delegated. Some need to be released. Hi, I'm Richard Lim... I created a free guide with 5 questions to help leaders discern what is theirs to carry.",
+      "on_screen_text": [
+        "What If Time Management Isn't the Problem?"
+      ],
+      "ad_type_tag": "static",
+      "hook": "What leaders carry that isn't really theirs to carry -- delegation/release framing",
+      "offer": "Free guide: 5 questions on what to carry vs. delegate/release",
+      "cta": "Download",
+      "first_seen": "2026-08-31",
+      "last_seen": "2026-09-14",
+      "days_running": 14,
+      "status": "active",
+      "hook_pattern": "paradox_reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Same lead magnet and hook family as meta_2143393363058647 and meta_2047063045913504 -- 3 concurrently active variants."
+    },
+    {
+      "ad_id": "meta_2047063045913504",
+      "advertiser": "RLim Leadership Coaching (Richard Lim)",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2047063045913504",
+      "transcript": "Christian Executives & Leaders: Most leaders do not set out to spend their days firefighting... I put together a free guide with 5 questions to help leaders move from firefighting to focus.",
+      "on_screen_text": [
+        "What If Time Management Isn't the Problem?"
+      ],
+      "ad_type_tag": "static",
+      "hook": "Firefighting-to-focus framing, same free guide offer",
+      "offer": "Free guide: 5 questions, firefighting to focus",
+      "cta": "Download",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-14",
+      "days_running": 11,
+      "status": "active",
+      "hook_pattern": "paradox_reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Third concurrent variant of the same free-guide funnel."
+    },
+    {
+      "ad_id": "meta_1242711921332351",
+      "advertiser": "Vanguard XXI",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1242711921332351",
+      "transcript": "Vanguard XXI is a leadership development and executive coaching company. Our ICF accredited academy credentials coaches, and our team coaches executives and teams one to one. Four ways in... Transform leaders, coach excellence, and win.",
+      "on_screen_text": [
+        "Become a coach. Or be coached.",
+        "ICF certification and coaching"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Dual-path positioning: become a certified coach OR be coached -- highlights 4 distinct entry points into the business",
+      "offer": "ICF Level 1/2 certification, mentor coaching, or 1:1 executive coaching",
+      "cta": "Learn more",
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-14",
+      "days_running": 6,
+      "status": "active",
+      "hook_pattern": "dual_path_features",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": "Closest structural match to Todd's own certify-coaches model per competitors.json notes."
+    },
+    {
+      "ad_id": "meta_1671162274301073",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1671162274301073",
+      "transcript": "New year, complete certification. If 2026 is the year you become a certified executive coach, the Full CEC Program gives you everything you need. ICF-accredited training, mentor coaching, and the coaching hours required for ACC or PCC.",
+      "on_screen_text": [
+        "Start with the program that delivers complete preparation."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "New-year timing hook bundled with a complete, done-for-you certification package",
+      "offer": "Full CEC Program: ICF-accredited training + mentor coaching + required hours",
+      "cta": "(program page)",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-09-14",
+      "days_running": 107,
+      "status": "active",
+      "hook_pattern": "new_year_urgency",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "One of several concurrently active CEC certification-program ads."
+    },
+    {
+      "ad_id": "meta_1632773637809709",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1632773637809709",
+      "transcript": "Ready to take your leadership expertise to the next level in 2026? Executive coaching certification gives you the tools to scale your impact. CEC's flexible, ICF-accredited programs fit your schedule and experience level.",
+      "on_screen_text": [
+        "Explore CEC Programs",
+        "CEC Full Program",
+        "Path to ICF Certification",
+        "CEC Core Program",
+        "CEC Virtual Seminar"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Multi-program carousel letting prospects self-select a certification path",
+      "offer": "Choice of 4 certification program tracks (Full/ICF Path/Core/Virtual Seminar)",
+      "cta": "See Details",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "identity_callout",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Carousel format reused near-verbatim in meta_968472362835183 and meta_1721076875730907."
+    },
+    {
+      "ad_id": "meta_1989011958387223",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1989011958387223",
+      "transcript": "Planning to earn your ICF credential in 2026? Start with the right training partner. CEC's ICF Path program is designed specifically for coaches pursuing ACC or PCC credentials.",
+      "on_screen_text": [
+        "Path to ICF"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Credentialing-year urgency + narrowly targeted at ACC/PCC path seekers",
+      "offer": "ICF Path certification program",
+      "cta": "Learn about the ICF Path",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "credentialing_urgency",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy also running as meta_1721076875730907 (duplicate creative, different library ID)."
+    },
+    {
+      "ad_id": "meta_968472362835183",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=968472362835183",
+      "transcript": "You've already built a career leading others. In 2026, make it official. CEC's executive coaching certifications are built for accomplished professionals like you.",
+      "on_screen_text": [
+        "Explore CEC Programs",
+        "CEC Full Program",
+        "Path to ICF Certification",
+        "CEC Core Program",
+        "CEC Virtual Seminar"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Identity-callout hook (\"you've already built a career leading others\") aimed at accomplished professionals",
+      "offer": "Choice of certification tracks (ACC, PCC, team coaching)",
+      "cta": "See Details",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "identity_callout",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same carousel format as meta_1632773637809709."
+    },
+    {
+      "ad_id": "meta_991242580051116",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=991242580051116",
+      "transcript": "Stay Ahead. The executive coaching industry is evolving...don't get left behind. While others scramble to line up practice partners, CEC coaches are already advancing their skills with CoachPilot.",
+      "on_screen_text": [
+        "24/7 practice availability",
+        "Real-world client challenges",
+        "Instant competency feedback",
+        "Private, judgment-free space"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Competitive-urgency framing around a specific product feature (AI practice tool)",
+      "offer": "CoachPilot: 24/7 AI-powered practice scenarios for members",
+      "cta": "See details",
+      "first_seen": "2026-05-30",
+      "last_seen": "2026-09-14",
+      "days_running": 107,
+      "status": "active",
+      "hook_pattern": "competitive_urgency",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy/creative reused as video in meta_948067507813595."
+    },
+    {
+      "ad_id": "meta_1957040051587811",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1957040051587811",
+      "transcript": "Real coaches. Real results. See what CEC members are saying about their experience, and their success.",
+      "on_screen_text": [
+        "Your Path to Coaching Success"
+      ],
+      "ad_type_tag": "testimonial",
+      "hook": "Direct testimonial framing -- member success stories",
+      "offer": "CEC certification program (member results as proof)",
+      "cta": "Learn more",
+      "first_seen": "2026-04-29",
+      "last_seen": "2026-09-14",
+      "days_running": 138,
+      "status": "active",
+      "hook_pattern": "testimonial_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": "Longest-running CEC ad captured this cycle (~4.5 months)."
+    },
+    {
+      "ad_id": "meta_985183341036922",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=985183341036922",
+      "transcript": "Breaking the Practice Barrier. The hardest part of becoming a coach isn't learning the theory, it's finding enough practice. That's why we created CEC CoachPilot powered by Yoodli.",
+      "on_screen_text": [
+        "Breaking the Practice Barrier"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Names the real bottleneck (practice, not theory) then presents the tool that solves it",
+      "offer": "CoachPilot practice tool (powered by Yoodli)",
+      "cta": "See details",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "name_the_bottleneck",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy reused as video in meta_947900624662256."
+    },
+    {
+      "ad_id": "meta_1469838065165652",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1469838065165652",
+      "transcript": "There's something powerful about learning in a room with your peers. Join us October 14-17, 2026 in Chicago, Illinois, for the first time, for CEC's last In-Person Seminar of 2026.",
+      "on_screen_text": [
+        "ICF-accredited. Immersive. Intensive.",
+        "Register for the October seminar in Chicago"
+      ],
+      "ad_type_tag": "time_sensitive",
+      "hook": "Specific dated event with \"last seminar of 2026\" scarcity framing",
+      "offer": "3.5-day in-person certification seminar, Chicago, Oct 14-17 2026",
+      "cta": "Sign up",
+      "first_seen": "2026-08-18",
+      "last_seen": "2026-09-14",
+      "days_running": 27,
+      "status": "active",
+      "hook_pattern": "dated_event_scarcity",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_953024684449749",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=953024684449749",
+      "transcript": "Exclusive to CEC. \"These aren't roleplays, they're real coaching situations.\" - Andrew Neitlich. Every scenario in CoachPilot comes directly from Andrew's decades of executive coaching experience.",
+      "on_screen_text": [
+        "Exclusive to CEC"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Founder-quote used to back a proprietary-feature claim",
+      "offer": "CoachPilot exclusive scenario library",
+      "cta": "See details",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "founder_quote_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same quote/copy reused as video in meta_1521695969540759."
+    },
+    {
+      "ad_id": "meta_1467829721222609",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1467829721222609",
+      "transcript": "Stop Stressing about Getting Coach Practice. Finding practice partners has always been the hardest part of coach training. Now, CoachPilot gives you unlimited access to private, AI-powered practice sessions.",
+      "on_screen_text": [
+        "Stop Stressing about Getting Coach Practice"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Anxiety-relief hook targeting a specific training pain point",
+      "offer": "CoachPilot unlimited AI practice sessions",
+      "cta": "See details",
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-09-14",
+      "days_running": 108,
+      "status": "active",
+      "hook_pattern": "anxiety_relief",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1521695969540759",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1521695969540759",
+      "transcript": "Exclusive to CEC. \"These aren't roleplays, they're real coaching situations.\" - Andrew Neitlich...",
+      "on_screen_text": [
+        "Exclusive to CEC"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Video version of meta_953024684449749's founder-quote feature ad",
+      "offer": "CoachPilot exclusive scenario library",
+      "cta": "See details",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-09-14",
+      "days_running": 151,
+      "status": "active",
+      "hook_pattern": "founder_quote_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Duplicate creative of meta_953024684449749, longer-running video version."
+    },
+    {
+      "ad_id": "meta_947900624662256",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=947900624662256",
+      "transcript": "Breaking the Practice Barrier. The hardest part of becoming a coach isn't learning the theory...",
+      "on_screen_text": [
+        "Breaking the Practice Barrier"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Video version of meta_985183341036922",
+      "offer": "CoachPilot practice tool",
+      "cta": "See details",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-09-14",
+      "days_running": 151,
+      "status": "active",
+      "hook_pattern": "name_the_bottleneck",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Duplicate creative of meta_985183341036922, longer-running video version."
+    },
+    {
+      "ad_id": "meta_948067507813595",
+      "advertiser": "Center for Executive Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=948067507813595",
+      "transcript": "Stay Ahead. The executive coaching industry is evolving...don't get left behind...",
+      "on_screen_text": [
+        "Stay Ahead"
+      ],
+      "ad_type_tag": "features",
+      "hook": "Video version of meta_991242580051116",
+      "offer": "CoachPilot AI practice tool",
+      "cta": "Learn more",
+      "first_seen": "2026-04-16",
+      "last_seen": "2026-09-14",
+      "days_running": 151,
+      "status": "active",
+      "hook_pattern": "competitive_urgency",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Duplicate creative of meta_991242580051116, longer-running video version."
+    },
+    {
+      "ad_id": "meta_3650448971774990",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=3650448971774990",
+      "transcript": "You can't grow your business if you're running on empty. It's time to refuel your leadership and reignite your drive. An EntreLeadership Advisory Group connects you with business owners who know the grind.",
+      "on_screen_text": [
+        "Refuel, refocus and grow stronger with group coaching."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Burnout-refuel framing for a peer mastermind/advisory group offer",
+      "offer": "EntreLeadership Advisory Group (group coaching)",
+      "cta": "Learn More",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-09-14",
+      "days_running": 67,
+      "status": "active",
+      "hook_pattern": "burnout_refuel",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1525672612635261",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1525672612635261",
+      "transcript": "What if one conversation with other business owners could save you months of trial and error? Read this.",
+      "on_screen_text": [
+        "Level Up with Like-Minded Leaders"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Curiosity-gap hook about peer mastermind value",
+      "offer": "EntreLeadership Advisory Group (mastermind)",
+      "cta": "Learn more",
+      "first_seen": "2026-07-17",
+      "last_seen": "2026-09-14",
+      "days_running": 59,
+      "status": "active",
+      "hook_pattern": "curiosity_gap",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1502273121440514",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1502273121440514",
+      "transcript": "Poor communication in a business doesn't start with the team, it starts with the leader... When you set the tone for clear, honest communication, your team will follow your lead.",
+      "on_screen_text": [],
+      "ad_type_tag": "educational",
+      "hook": "Accountability reframe: communication problems trace back to the leader",
+      "offer": "EntreLeadership brand/content (no direct offer in this ad)",
+      "cta": "Learn more",
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-09-14",
+      "days_running": 118,
+      "status": "active",
+      "hook_pattern": "accountability_reframe",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1359739296304306",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1359739296304306",
+      "transcript": "When the stakes are high, average leaders react. Great leaders respond. Learn how to lead with clarity, ownership and confidence from Dave Ramsey, Jocko Willink, and Joe Montana. At EntreLeadership Summit...",
+      "on_screen_text": [
+        "Learn From the Best"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Celebrity-speaker-lineup hook for a ticketed leadership summit",
+      "offer": "EntreLeadership Summit (conference ticket)",
+      "cta": "Learn more",
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-09-14",
+      "days_running": 94,
+      "status": "active",
+      "hook_pattern": "celebrity_speaker_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1010740428463783",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1010740428463783",
+      "transcript": "BIG NEWS for Small-Business Owners! Join 3,000 entrepreneurs and world-class leaders at EntreLeadership Summit!",
+      "on_screen_text": [
+        "Unforgettable Leadership Event"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "\"Big news\" attention hook + social proof (3,000 attendees) for Summit ticket",
+      "offer": "EntreLeadership Summit ticket",
+      "cta": "Learn More",
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-09-14",
+      "days_running": 98,
+      "status": "active",
+      "hook_pattern": "big_news_social_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy also running as meta_870041466147251 (duplicate creative)."
+    },
+    {
+      "ad_id": "meta_2402495553579580",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2402495553579580",
+      "transcript": "POV: you're at #entresummit",
+      "on_screen_text": [
+        "POV: you're at #entresummit"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "POV-style event footage, native/organic feel rather than polished ad",
+      "offer": "EntreLeadership Summit (brand/event awareness)",
+      "cta": "See details",
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-09-14",
+      "days_running": 118,
+      "status": "active",
+      "hook_pattern": "pov_native_footage",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1629834581454938",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1629834581454938",
+      "transcript": "A lot of business owners spend years trying to separate 'work life' from 'real life'. But leadership doesn't work that way... EntreLeadership Advisory Group Coaching helps business owners build healthier businesses and healthier lives.",
+      "on_screen_text": [],
+      "ad_type_tag": "offer",
+      "hook": "Whole-life integration framing (business affects marriage, health, purpose) for the Advisory Group offer",
+      "offer": "EntreLeadership Advisory Group coaching",
+      "cta": "Learn more at the link in bio",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-09-14",
+      "days_running": 105,
+      "status": "active",
+      "hook_pattern": "whole_life_integration",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1518815602587681",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1518815602587681",
+      "transcript": "Ever notice how successful businesspeople never go it alone? They surround themselves with like-minded peers... To level up in business, you have to make intentional connections.",
+      "on_screen_text": [
+        "Why Every Business Owner Needs a Mastermind Group"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Social-proof/FOMO hook (successful people never go it alone) for mastermind group",
+      "offer": "EntreLeadership mastermind group",
+      "cta": "Learn More",
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-09-14",
+      "days_running": 67,
+      "status": "active",
+      "hook_pattern": "social_proof_fomo",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_2529487217549674",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2529487217549674",
+      "transcript": "Spend five days learning the system that built a $300 million company so you can stop guessing how to grow your business. At EntreLeadership Master Series, Ramsey Solutions' Executive Team will open up the exact playbook.",
+      "on_screen_text": [
+        "Get Your Ticket"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Proof-of-scale hook ($300M company) for a multi-day intensive event",
+      "offer": "EntreLeadership Master Series (5-day event, Nov 8-13, Franklin TN)",
+      "cta": "Learn More",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-14",
+      "days_running": 26,
+      "status": "active",
+      "hook_pattern": "scale_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_3591082664384854",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=3591082664384854",
+      "transcript": "Don't take business advice from people who've never made payroll. We've made payroll for 30 years. Join us at EntreLeadership Master Series...",
+      "on_screen_text": [
+        "Get Your Custom Growth Plan"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Credibility/authority hook (\"made payroll for 30 years\") for Master Series event",
+      "offer": "EntreLeadership Master Series (5-day event, Nov 8-13, Franklin TN)",
+      "cta": "Learn more",
+      "first_seen": "2026-08-19",
+      "last_seen": "2026-09-14",
+      "days_running": 26,
+      "status": "active",
+      "hook_pattern": "authority_credibility",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Concurrently active with meta_2529487217549674 -- same event, different hook."
+    },
+    {
+      "ad_id": "meta_27458703223822568",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=27458703223822568",
+      "transcript": "The best business owners know how to lead, not just manage. Managers push and micromanage. Leaders train and empower. Join us at EntreLeadership Master Series to learn how to lead with confidence.",
+      "on_screen_text": [
+        "EntreLeadership Master Series"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Manager-vs-leader distinction hook for Master Series event",
+      "offer": "EntreLeadership Master Series tickets",
+      "cta": "Learn More",
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-09-14",
+      "days_running": 40,
+      "status": "active",
+      "hook_pattern": "identity_distinction",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy also running as meta_1263862003476112 (duplicate creative)."
+    },
+    {
+      "ad_id": "meta_1535388954596665",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1535388954596665",
+      "transcript": "Tired of your team guessing? A Key Results Area (KRA) replaces guesswork with crystal-clear expectations on one simple page. Get our free template.",
+      "on_screen_text": [
+        "Stop Guessing. Start Leading."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Pain-point hook (team guessing) for a free KRA template lead magnet",
+      "offer": "Free Key Results Area (KRA) template",
+      "cta": "Learn More",
+      "first_seen": "2026-05-19",
+      "last_seen": "2026-09-14",
+      "days_running": 118,
+      "status": "active",
+      "hook_pattern": "pain_point_lead_magnet",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same/similar copy also running as meta_859337609893450, meta_965520272953575, meta_1307311451579176 -- this KRA template is one of EntreLeadership's most heavily iterated offers."
+    },
+    {
+      "ad_id": "meta_2437680926708662",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2437680926708662",
+      "transcript": "Is your team stuck in guesswork mode? Replace uncertainty with crystal-clear expectations using a Key Results Area (KRA). Get our free template.",
+      "on_screen_text": [
+        "Get the free blueprint."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Same KRA template offer, question-hook variant",
+      "offer": "Free KRA template",
+      "cta": "Learn more",
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-09-14",
+      "days_running": 97,
+      "status": "active",
+      "hook_pattern": "pain_point_lead_magnet",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_950229018087379",
+      "advertiser": "EntreLeadership",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=950229018087379",
+      "transcript": "Strong business leaders push each other higher. At EntreLeadership Master Series, you'll meet more than 700 leaders who share your passion for excellence.",
+      "on_screen_text": [],
+      "ad_type_tag": "offer",
+      "hook": "Peer-network scale hook (700+ leaders) for Master Series",
+      "offer": "EntreLeadership Master Series tickets",
+      "cta": "(ticket link)",
+      "first_seen": "2026-08-07",
+      "last_seen": "2026-09-14",
+      "days_running": 38,
+      "status": "active",
+      "hook_pattern": "peer_network_scale",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1336985628289974",
+      "advertiser": "EntreLeadership with Dave Ramsey",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1336985628289974",
+      "transcript": "Want a proven plan to take your business further than you thought possible? The same road map Dave Ramsey used to scale his business to $300 million can be yours. Take the Stages of Business Assessment.",
+      "on_screen_text": [
+        "Start scaling the right way."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Free assessment lead magnet tied to the $300M proof point",
+      "offer": "Free Stages of Business Assessment",
+      "cta": "Learn More",
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-09-14",
+      "days_running": 124,
+      "status": "active",
+      "hook_pattern": "free_assessment_proof",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1591945745792327",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1591945745792327",
+      "transcript": "Most people don't realize burnout changes as you move up. Early in your career it looks like exhaustion... at the executive level, it can become isolation... The higher you go, the better you get at hiding it.",
+      "on_screen_text": [
+        "#burnout #worklifebalance #executiveburnout"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Diagnostic reframe: burnout evolves by career stage, ending on \"you're practiced, not fine\"",
+      "offer": "Executive coaching (implicit -- follow for more content)",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-09-14",
+      "days_running": 32,
+      "status": "active",
+      "hook_pattern": "stage_based_diagnostic",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": "One of 6 concurrently active organic-style talking-head videos from this advertiser."
+    },
+    {
+      "ad_id": "meta_1604694154647162",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1604694154647162",
+      "transcript": "We spend so much of our careers waiting to be chosen... your manager is not your career coach... growth asks us to stop waiting for permission and start taking ownership.",
+      "on_screen_text": [],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Reframe: your manager won't manage your career for you",
+      "offer": "Podcast (Work Unscripted) / coaching content",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-14",
+      "days_running": 12,
+      "status": "active",
+      "hook_pattern": "reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1546283113133026",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1546283113133026",
+      "transcript": "4 out of 10 C-suite executives fail in the first 18 months... It's because they walked into a new executive role and tried to lead before they really learned the organization.",
+      "on_screen_text": [
+        "#ExecutiveLeadership #LeadershipDevelopment #ExecutiveCoaching"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Stat-led pattern interrupt (40% C-suite failure rate) into a credibility/trust lesson",
+      "offer": "Executive coaching content",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-09-14",
+      "days_running": 32,
+      "status": "active",
+      "hook_pattern": "stat_pattern_interrupt",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_913543935160327",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=913543935160327",
+      "transcript": "Some of you are calling it micromanagement because you don't like being managed... Sometimes it's accountability. Sometimes it's coaching... sometimes the discomfort is coming from your resistance to being led.",
+      "on_screen_text": [],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Contrarian reframe on micromanagement vs. accountability",
+      "offer": "Executive coaching content",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-14",
+      "days_running": 13,
+      "status": "active",
+      "hook_pattern": "contrarian_reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1424315846217225",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1424315846217225",
+      "transcript": "I used to call myself a perfectionist like it was a compliment. What I really meant was: I was scared... Imperfect things that exist will always do more than perfect things that never leave your head.",
+      "on_screen_text": [
+        "#LeadershipDevelopment #ImposterSyndrome #MindsetShift"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Personal vulnerability confession (perfectionism = fear) leading to a ship-it message",
+      "offer": "Podcast (Work Unscripted) / coaching content",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-14",
+      "days_running": 13,
+      "status": "active",
+      "hook_pattern": "vulnerability_confession",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_4586197338319886",
+      "advertiser": "Marlo Lyons Coaching",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=4586197338319886",
+      "transcript": "I probably shouldn't be saying this as an executive coach, but I'm going to anyway. You don't need to pay someone thousands of dollars to learn how to tailor your resume... AI can help you do that now.",
+      "on_screen_text": [
+        "#ExecutiveCoach #JobSearch #ResumeTips"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Against-self-interest confession: AI can replace part of what career coaches sell",
+      "offer": "Career coaching content / AI-augmented positioning advice",
+      "cta": "Visit Instagram profile",
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-14",
+      "days_running": 13,
+      "status": "active",
+      "hook_pattern": "against_self_interest_confession",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": "Low impression count. Notable pivot: this advertiser publicly acknowledging AI is commoditizing part of traditional career coaching."
+    },
+    {
+      "ad_id": "meta_1660539038502263",
+      "advertiser": "Ed Rush",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1660539038502263",
+      "transcript": "You are sitting across from a high-powered executive who is completely burnt out... the coaching industry has convinced you that faith and business must remain completely separate... The God Talks Coaching Certification gives you a professional framework to integrate faith into high-stakes business decisions.",
+      "on_screen_text": [
+        "The Coaching Industry's Hidden Truth"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Contrarian industry-insider hook: faith belongs in high-stakes coaching, against conventional wisdom",
+      "offer": "The God Talks Coaching Certification",
+      "cta": "book a call with a Program Manager",
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-14",
+      "days_running": 110,
+      "status": "active",
+      "hook_pattern": "contrarian_industry_insider",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Long-runner; targets coaches wanting to build a faith-integrated executive coaching practice."
+    },
+    {
+      "ad_id": "meta_1552466976414499",
+      "advertiser": "Ed Rush",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1552466976414499",
+      "transcript": "I'm going to say something that most coaches will never admit: A lot of coaching doesn't create real transformation anymore. It creates temporary motivation... once I started showing coaches how to bring God into the coaching relationship itself, everything changed.",
+      "on_screen_text": [],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Industry-critique hook (most coaching only motivates, doesn't transform)",
+      "offer": "The God Talks Coaching Certification",
+      "cta": "Apply to speak with my team",
+      "first_seen": "2026-07-01",
+      "last_seen": "2026-09-14",
+      "days_running": 75,
+      "status": "active",
+      "hook_pattern": "industry_critique",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_969971815903122",
+      "advertiser": "Ed Rush",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=969971815903122",
+      "transcript": "Stop Hiding Your Faith in Business. It's Costing You Clients... When you lead with your faith, you don't lose clients, you attract the right ones.",
+      "on_screen_text": [],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Direct-address urgency hook (\"it's costing you clients\") reframing faith as a differentiator not a liability",
+      "offer": "The God Talks Coaching Certification",
+      "cta": "(godtalksteam.com)",
+      "first_seen": "2026-05-27",
+      "last_seen": "2026-09-14",
+      "days_running": 110,
+      "status": "active",
+      "hook_pattern": "direct_address_urgency",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Concurrently active with meta_1660539038502263 -- same funnel, different hook angle."
+    },
+    {
+      "ad_id": "meta_1357419959626847",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1357419959626847",
+      "transcript": "You know you want to help people. You know you want to make a difference in their life. But you're scared to start or maybe scared you'll fail? Most coaches don't fail because they're bad at coaching. They fail because they never learn the path.",
+      "on_screen_text": [
+        "Start sooner than you're ready - watch now."
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Fear-naming hook (scared to start/fail) into a free training offer",
+      "offer": "FREE 3-Day Coaching Training",
+      "cta": "Get the Free Training",
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-09-14",
+      "days_running": 111,
+      "status": "active",
+      "hook_pattern": "fear_naming",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "This exact creative is also running under roughly 14 other concurrent Library IDs -- by far the most heavily duplicated single ad in this cycle's dataset (very strong iteration signal)."
+    },
+    {
+      "ad_id": "meta_2090150215252036",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2090150215252036",
+      "transcript": "Drowning in the details before the first client arrives? Start anyway. People are counting on you. Most coaches don't fail because they're bad at coaching. They fail because they never learn the path.",
+      "on_screen_text": [
+        "Start anyway. People are counting on you."
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Overwhelm-empathy hook variant of the core 3-Day Training funnel",
+      "offer": "FREE 3-Day Coaching Training",
+      "cta": "Get the Free Training",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-09-14",
+      "days_running": 105,
+      "status": "active",
+      "hook_pattern": "fear_naming",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Hook variant of meta_1357419959626847's funnel."
+    },
+    {
+      "ad_id": "meta_946215631781169",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=946215631781169",
+      "transcript": "3 Day Life Coaching Stream with Brendon Burchard, the World's #1 High Performance Coach. What You'll Learn: Why Most Coaches Fail to Start or Scale, How to Get Higher-Paying Clients, Which Marketing Strategies Build Your Coaching Business Best.",
+      "on_screen_text": [
+        "Free 3 Day Life Coaching Stream with Brendon Burchard"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Curriculum-preview hook listing concrete bullet-point takeaways",
+      "offer": "Free 3-Day Life Coaching Stream",
+      "cta": "Get FREE Access",
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-09-14",
+      "days_running": 90,
+      "status": "active",
+      "hook_pattern": "curriculum_preview",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1677320733418897",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1677320733418897",
+      "transcript": "The coaching industry today is different. You used to have to sell coaching to companies & now they're actively looking for coaches for their executives. Athletes used to just have their conditioning coaches & now they know they have to get their mindset right.",
+      "on_screen_text": [],
+      "ad_type_tag": "educational",
+      "hook": "Market-shift observation (companies now seek coaches) building demand narrative",
+      "offer": "Free streaming training event",
+      "cta": "Get FREE Access",
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-09-14",
+      "days_running": 105,
+      "status": "active",
+      "hook_pattern": "market_shift_observation",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1753698299239622",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1753698299239622",
+      "transcript": "Learn the 5 Challenges That Keep Great Life Coaches From Building a Successful Business.",
+      "on_screen_text": [
+        "5 Challenges that Hold Life Coaches Back"
+      ],
+      "ad_type_tag": "educational",
+      "hook": "Numbered-list curiosity hook (5 challenges) targeting existing coaches, not aspiring ones",
+      "offer": "Free content on the 5 challenges coaches face",
+      "cta": "See details",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-14",
+      "days_running": 20,
+      "status": "active",
+      "hook_pattern": "numbered_list_curiosity",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": "Also running as meta_1047228224756441 (duplicate creative, one day later)."
+    },
+    {
+      "ad_id": "meta_1525642902529311",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1525642902529311",
+      "transcript": "3 Incredible Days to Talk About Life Coaching! In this Free 3 Day Stream I'll Show You Exactly How to Set up a Coaching Business... How do you Get Customers? What Should Your Offer Be? How Much Should You Charge?",
+      "on_screen_text": [
+        "Why Most Coaches FAIL to Start or Scale - Free 3 Day Stream"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Question-list hook (customers/offer/pricing) for the free 3-day stream",
+      "offer": "Free 3-Day Stream",
+      "cta": "Get FREE Access",
+      "first_seen": "2026-05-26",
+      "last_seen": "2026-09-14",
+      "days_running": 111,
+      "status": "active",
+      "hook_pattern": "question_list",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1371424841201741",
+      "advertiser": "Brendon Burchard - Live. Love. Matter.",
+      "category": "executive_coaching",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1371424841201741",
+      "transcript": "You can have paying clients & still not have a business. Look at two coaches with the same talent... What's missing is a repeatable process... Get the full 3-module Life Coaching Class for $47. 30-day money-back guarantee.",
+      "on_screen_text": [
+        "The Exact Method to Build & Scale Your Coaching Biz"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Sophisticated-prospect hook (already has clients, business still won't scale) leading to a low-price tripwire",
+      "offer": "3-module Life Coaching Class, $47, 30-day guarantee",
+      "cta": "See details",
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-14",
+      "days_running": 20,
+      "status": "active",
+      "hook_pattern": "sophisticated_prospect_reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": false
+      },
+      "notes": "This is a paid ($47) tripwire offer, distinct from this advertiser's usual free-training funnel -- worth flagging as a funnel-shape shift."
+    },
+    {
+      "ad_id": "meta_1669397027431216",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1669397027431216",
+      "transcript": "Struggling to scale your 7-figure business? Discover the 5 must-track metrics that drive growth, streamline decision-making, and unlock your business's true potential.",
+      "on_screen_text": [
+        "The Secret to Scaling? Start with These 5 Must-Know Metrics!"
+      ],
+      "ad_type_tag": "educational",
+      "hook": "Curiosity-gap hook (5 must-know metrics) for a free download",
+      "offer": "Free 5 Must-Track Metrics guide",
+      "cta": "Download",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-09-14",
+      "days_running": 142,
+      "status": "active",
+      "hook_pattern": "curiosity_gap",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Legacy ad -- long runner from before the Sep 13 campaign relaunch (below)."
+    },
+    {
+      "ad_id": "meta_959865653621977",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=959865653621977",
+      "transcript": "Struggling to scale your 7-figure business? Discover the 5 must-track metrics that drive growth...",
+      "on_screen_text": [
+        "5 Must Track Metrics for Small Businesses"
+      ],
+      "ad_type_tag": "educational",
+      "hook": "Same lead-magnet offer as meta_1669397027431216, landing-page variant",
+      "offer": "Free 5 Must-Track Metrics guide",
+      "cta": "Download",
+      "first_seen": "2026-04-25",
+      "last_seen": "2026-09-14",
+      "days_running": 142,
+      "status": "active",
+      "hook_pattern": "curiosity_gap",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_1103160042053233",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1103160042053233",
+      "transcript": "Are you a CEO or Owner of a $1M+ business who feels like the only one who truly understands what running this business takes... Do you wish you had a COO in your pocket, someone who's scaled a business from $50M to $350M?",
+      "on_screen_text": [
+        "You Don't Have to Figure This Out Alone"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Isolation-of-the-founder hook + specific scale proof ($50M-$350M) for $1M+ segment",
+      "offer": "Fractional COO / thought-partner service",
+      "cta": "Message PARTNER to get started",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "isolation_of_founder",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Part of a brand-new multi-variant campaign this advertiser launched within the last 24-48 hours -- see run notes."
+    },
+    {
+      "ad_id": "meta_1684748460121849",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1684748460121849",
+      "transcript": "Running a $3M+ business is lonely at the top, there's no one else in the room who really gets the weight of every decision... a thought partner who's actually scaled a business from $0M to nine figures.",
+      "on_screen_text": [
+        "A COO in Your Pocket, On Call When You Need Them"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Loneliness-at-the-top hook for $3M+ segment",
+      "offer": "Fractional COO / thought-partner service",
+      "cta": "Message PARTNER to get started",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "isolation_of_founder",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch."
+    },
+    {
+      "ad_id": "meta_1787071875827191",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1787071875827191",
+      "transcript": "Are you a CEO or Owner of a $3M+ business who is growing fast but operations can't keep up? Are different teams pulling in different directions...",
+      "on_screen_text": [
+        "Scaling Fast Shouldn't Mean Falling Apart"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Growing-pains hook (fast growth outrunning operations) for $3M+ segment",
+      "offer": "Fractional COO paired with hands-on operator",
+      "cta": "Message PARTNER to get started",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "growing_pains",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch."
+    },
+    {
+      "ad_id": "meta_1496357268997792",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1496357268997792",
+      "transcript": "If you're still the one every decision runs through, your business will only ever grow as fast as you can personally keep up. We bring in real operating executives, Fortune 100/500 trained, who don't just advise, they implement.",
+      "on_screen_text": [
+        "Stop Being the Bottleneck in Your Own Business"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Bottleneck-identity hook + Fortune 100/500 credibility marker",
+      "offer": "Fractional COO / operating executive service",
+      "cta": "Comment or message PARTNER",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "bottleneck_identity",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch."
+    },
+    {
+      "ad_id": "meta_2335107930594159",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2335107930594159",
+      "transcript": "You've been back to our site more than once. That's not indecision that's your gut telling you something needs to change... 30 minutes, no pitch, no pressure. Just an honest read on what your business actually needs right now.",
+      "on_screen_text": [],
+      "ad_type_tag": "offer",
+      "hook": "Retargeting hook that names the visitor's own behavior (returned to the site) as the signal",
+      "offer": "30-minute no-pitch consult",
+      "cta": "(book a call)",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "retargeting_behavior_callout",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- retargeting creative from the fresh launch."
+    },
+    {
+      "ad_id": "meta_3138126739719271",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=3138126739719271",
+      "transcript": "Revenue climbing but the bank account not reflecting it? That's a leak, and it's findable. We've uncovered $850K in hidden profit for a business just like yours, in 8 weeks.",
+      "on_screen_text": [
+        "Where Is Your Profit Actually Going?"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Specific-result hook ($850K found in 8 weeks) tied to a common pain (revenue up, cash flat)",
+      "offer": "Fractional COO / profit-leak audit",
+      "cta": "Message PARTNER to get started",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "specific_result_proof",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch."
+    },
+    {
+      "ad_id": "meta_1577769640465946",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1577769640465946",
+      "transcript": "Still buried in the paperwork, the invoices, the day-to-day you never wanted to be doing yourself? You started this business for freedom, not to become its most expensive employee.",
+      "on_screen_text": [],
+      "ad_type_tag": "offer",
+      "hook": "Founder-freedom-lost hook (\"most expensive employee\") + retargeting nudge",
+      "offer": "Fractional COO service",
+      "cta": "Book your free consult",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "founder_freedom_lost",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch."
+    },
+    {
+      "ad_id": "meta_1281181738418096",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1281181738418096",
+      "transcript": "Are you a CEO or Owner of a $1M+ business who watches revenue climb while profit stays flat, and can't figure out where the money is leaking? We've found $850K in hidden profit for a business just like yours, in 8 weeks.",
+      "on_screen_text": [
+        "Growing Revenue, Flat Profit? Here's Why"
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Same $850K-in-8-weeks proof point as meta_3138126739719271, targeted at $1M+ segment specifically",
+      "offer": "Fractional COO / profit-leak audit",
+      "cta": "Message PARTNER to get started",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "specific_result_proof",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch; $1M+ counterpart of the $3M+ version."
+    },
+    {
+      "ad_id": "meta_2910295766011022",
+      "advertiser": "On Call COO (Melissa Franks)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2910295766011022",
+      "transcript": "Are you and your business stuck? Are you not sure what to do next? The RIGHT Fractional COO can help. Fractional COO Services.",
+      "on_screen_text": [
+        "Are you and your business stuck? Are you not sure what to do next? The RIGHT Fractional COO can help."
+      ],
+      "ad_type_tag": "offer",
+      "hook": "Direct-question hook (stuck / not sure what's next) with brand tagline",
+      "offer": "Fractional COO services",
+      "cta": "See details",
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "days_running": 1,
+      "status": "active",
+      "hook_pattern": "direct_question",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Low impression count -- fresh launch; video version of a tagline also used in static carousel variants."
+    },
+    {
+      "ad_id": "meta_1453926969243863",
+      "advertiser": "Run Like Clockwork",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1453926969243863",
+      "transcript": "Running a business shouldn't feel like drowning in tasks. If you're stuck in the weeds... Our Certified Fractional COOs have been through a rigorous certification process to master the Clockwork methodology.",
+      "on_screen_text": [
+        "Stuck in the weeds?",
+        "Did you answer yes?",
+        "Trained. Vetted. Certified."
+      ],
+      "ad_type_tag": "features",
+      "hook": "Overwhelm hook into a vetted-directory/marketplace pitch (not a single practitioner)",
+      "offer": "Certified Fractional COO directory (runlikeclockwork.com/directory)",
+      "cta": "Find your certified Fractional COO today",
+      "first_seen": "2025-09-24",
+      "last_seen": "2026-09-14",
+      "days_running": 355,
+      "status": "active",
+      "hook_pattern": "overwhelm_to_directory",
+      "signal": {
+        "long_runner": true,
+        "iterated": false
+      },
+      "notes": "Nearly a full year of continuous runtime (355 days) -- the single strongest long-runner signal in this dataset, validating the certification+directory/marketplace model."
+    },
+    {
+      "ad_id": "meta_1754639848939192",
+      "advertiser": "Double U Advisors (Jamie L. Smith)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1754639848939192",
+      "transcript": "Don't we all just hate the first payday that isn't one? For over twenty years, the money arrived... None of it produces an invoice. An invoice comes from one conversation, with one person, about one problem. That uncertainty is exactly why I created the Executive to Fractional Leader Blueprint.",
+      "on_screen_text": [],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Loss-of-paycheck narrative building to the FIRST-method framework and a paid blueprint",
+      "offer": "Executive to Fractional Leader Blueprint, $47",
+      "cta": "Get the First Fractional Client",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-14",
+      "days_running": 11,
+      "status": "active",
+      "hook_pattern": "loss_of_paycheck_narrative",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Same creative also running as meta_1105627261993343 and meta_1394730448819478 (duplicate library IDs)."
+    },
+    {
+      "ad_id": "meta_2392483918206875",
+      "advertiser": "Double U Advisors (Jamie L. Smith)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=2392483918206875",
+      "transcript": "Don't we all just hate being sold optimism? Fractional Leadership gets pitched as freedom, flexibility... Nobody talks enough about the six months in between. Deciding properly takes about ninety minutes. Deciding by drift can take six months.",
+      "on_screen_text": [
+        "Not for everyone"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Anti-hype contrarian hook (against the usual fractional-leadership pitch) building urgency to decide fast",
+      "offer": "Executive to Fractional Leader Blueprint, $47",
+      "cta": "Learn more",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-14",
+      "days_running": 10,
+      "status": "active",
+      "hook_pattern": "anti_hype_contrarian",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": "Concurrently active with meta_1754639848939192 and meta_1082086351017943 -- 3 hook variants of the same $47 tripwire launched within days of each other."
+    },
+    {
+      "ad_id": "meta_1082086351017943",
+      "advertiser": "Double U Advisors (Jamie L. Smith)",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "video",
+      "creative_url": "https://www.facebook.com/ads/library/?id=1082086351017943",
+      "transcript": "We know how it feels to think your experience should be enough. Twenty years of leadership... And still no client... Running a function and running a fractional leadership brand are different work.",
+      "on_screen_text": [
+        "Experience is not a strategy"
+      ],
+      "ad_type_tag": "ugc_talking_head",
+      "hook": "Experience-isn't-enough reframe targeting senior execs who assume their resume will sell itself",
+      "offer": "Executive to Fractional Leader Blueprint, $47",
+      "cta": "Learn more",
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-14",
+      "days_running": 10,
+      "status": "active",
+      "hook_pattern": "experience_isnt_enough_reframe",
+      "signal": {
+        "long_runner": false,
+        "iterated": true
+      },
+      "notes": ""
+    },
+    {
+      "ad_id": "meta_935490859503513",
+      "advertiser": "Sound Cove Leadership Institute",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=935490859503513",
+      "transcript": "Former VP, CRO, CMO, COO, CFO or CEO? If you're 45-60 years old and wondering what comes next, read this... Fractional leadership allows experienced executives to work with select companies, solve meaningful problems, and generate significant income.",
+      "on_screen_text": [
+        "$5K-$15K/month fractional clients",
+        "Fix your Fractional Positioning"
+      ],
+      "ad_type_tag": "educational",
+      "hook": "Age/title-specific identity callout (45-60, former exec) into fractional-leadership positioning pitch",
+      "offer": "Fractional leadership positioning program/coaching",
+      "cta": "See details",
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-09-14",
+      "days_running": 84,
+      "status": "active",
+      "hook_pattern": "identity_callout",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": "Same copy also running as meta_2087042081917364 (duplicate creative, started Aug 25)."
+    },
+    {
+      "ad_id": "meta_997905296061946",
+      "advertiser": "Sound Cove Leadership Institute",
+      "category": "fractional_coo",
+      "platform": "meta",
+      "creative_type": "static",
+      "creative_url": "https://www.facebook.com/ads/library/?id=997905296061946",
+      "transcript": "Executive earning $200K-$500K? You spent decades building expertise. Now you're trying to solve a career problem with job applications. What if that's the wrong model? Many experienced executives are building fractional advisory businesses instead.",
+      "on_screen_text": [
+        "Do You Really Want Another W2 Job?"
+      ],
+      "ad_type_tag": "educational",
+      "hook": "Income-specific identity callout ($200K-$500K earners) reframing job search as the wrong model",
+      "offer": "Fractional advisory business positioning program",
+      "cta": "Book now",
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-09-14",
+      "days_running": 95,
+      "status": "active",
+      "hook_pattern": "identity_callout",
+      "signal": {
+        "long_runner": true,
+        "iterated": true
+      },
+      "notes": ""
+    }
+  ]
 }
